@@ -1,0 +1,62 @@
+[
+  {
+    "start": "09:30",
+    "end": "09:45",
+    "title": "Accueil des inscrits",
+    "description": "<p>Accueil des participants, vérification des inscriptions et distribution des badges pour bien commencer la journée.</p>"
+  },
+  {
+    "start": "09:45",
+    "end": "10:15",
+    "title": "Assemblée Générale — Amphithéâtre",
+    "description": "<p>Assemblée Générale des Alumni organisée dans l’amphithéâtre.</p>"
+  },
+  {
+    "start": "10:30",
+    "end": "11:30",
+    "title": "Messe du Centenaire — Amphithéâtre",
+    "description": "<p>Messe célébrée par Monseigneur Charrier dans l’amphithéâtre à l’occasion des 100 ans du Loquidy.</p>"
+  },
+  {
+    "start": "11:30",
+    "end": "12:00",
+    "title": "Discours officiels — Amphithéâtre",
+    "description": "<p>Discours du Président de l’Amicale, de la Tutelle et de la Direction pour marquer ce moment historique.</p>"
+  },
+  {
+    "start": "12:00",
+    "end": "12:30",
+    "title": "Apéritif de bienvenue",
+    "description": "<p>Apéritif convivial animé musicalement par la troupe des Collines Rouges pour lancer les festivités.</p>"
+  },
+  {
+    "start": "12:30",
+    "end": "14:00",
+    "title": "Buffet des Alumni",
+    "description": "<p>Grand buffet convivial favorisant les retrouvailles et les échanges entre promotions.</p>"
+  },
+  {
+    "start": "14:00",
+    "end": "17:00",
+    "title": "Après-midi : Animations, expositions et espaces libres",
+    "description": "<p>Tout l’après-midi, plusieurs espaces seront librement accessibles pour profiter pleinement de l’événement.</p><p>📸 <b>Photo booth</b> à disposition pour immortaliser vos retrouvailles.</p><p>🖊️ Retrouvez également <b>l’antenne Alumni</b> ainsi que le <b>livre d’Or</b> pour laisser un souvenir de votre passage.</p><p><b>Expositions thématiques</b> à découvrir dans le bâtiment D du lycée :</p><ul><li>🎭 Théâtre</li><li>🌍 International</li><li>🎉 Fête de l’école</li><li>🏅 Sports</li><li>⛪ Réseau La Salle / Pastorale</li></ul>"
+  },
+  {
+    "start": "14:30",
+    "end": "15:00",
+    "title": "Animations musicales",
+    "description": "<p>Première session d’animations musicales pour rythmer l’après-midi.</p>"
+  },
+  {
+    "start": "15:00",
+    "end": "16:00",
+    "title": "Animations sportives intergénérationnelles",
+    "description": "<br><ul><li><b>🏃‍♂️ Course relais</b></li><br><li>🏉 <b>Rugby</b> : sur le terrain synthétique</li><br><li>⚽ <b>Football</b> : animé par <b>Clément Rousset</b> sur le terrain en herbe</li><br><li>🏀 <b>Basketball</b> : animé par <b>David Arrial</b> sur le plateau sportif</li></ul><br><p><b>👕 Une tenue sportive adéquate est à apporter :</b><br>Merci de prévoir une tenue sportive adaptée pour participer dans de bonnes conditions.</p>"
+  },
+  {
+    "start": "16:00",
+    "end": "17:00",
+    "title": "Final du Centenaire",
+    "description": "<p>Grand final festif avec animations musicales et envoi de clôture pour terminer cette journée mémorable.</p>"
+  }
+]

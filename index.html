@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>100 ans du Loquidy</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.5.0/gpx.min.js"></script>
+
+
+</head>
+
+<body>
+
+<div id="top"></div>
+
+<header>
+
+<a href="#top" class="logo-title">
+  <img src="logo.webp" alt="Logo 100 ans du Loquidy">
+  <h1>100 ANS DU LOQUIDY</h1>
+</a>
+
+<nav>
+  <a href="#programme">Programme</a>
+  <a href="#acces">Accès</a>
+  <a href="#galerie">Galerie</a>
+  <a href="#news">Actualités</a>
+  <!--<a href="#course">Course</a>-->
+</nav>
+
+</header>
+
+<section class="hero">
+<h2>100 ans du Loquidy </h2>
+<p>17 octobre 2026 — Une journée historique pour tous les Loquidiens</p>
+</section>
+
+<section id="programme">
+<h2 style="font-size:18px;margin-bottom:40px;">Programme de la journée</h2>
+<div id="timeline"></div>
+
+<div class="partner-section">
+
+  <h3>Animations & partenaires du centenaire</h3>
+
+  <div class="partner-card">
+
+    <img src="logo-toums-Rose.png" alt="Brasserie Toum’s">
+
+    <blockquote>
+      « Après avoir fait 6 ans de brassage amateur, j’ai passé le pas en mai 2021 et j’ai lancé la brasserie toum’s. Mon goût prononcé pour les cocktails m’a fait me spécialiser dans les bières aux fruits et aux épices. Un goût de fruits et/ou d’épices toujours prononcé mais jamais sucré. Je fait également quelques bières classiques et je suis en mesure également de créer des bières sur mesure pour des événements spéciaux. 
+C’est pour cette raison, et en tant qu’ancien élève du loquidy, que ce projet des 100 ans m’a emballé.  »
+    </blockquote>
+
+    <p><b>Jérôme – Brasserie Toum’s (Thouaré-sur-Loire)</b></p>
+
+  </div>
+
+</div>
+
+
+</section>
+
+<section id="acces">
+  <h2 style="font-size:18px;">Accès & Stationnement</h2>
+
+  <div class="card">
+
+    <div class="acces-alert">
+      ⚠️ <b>Stationnement dans l’enceinte du lycée interdit</b><br><br>
+
+      Afin de garantir la sécurité et la fluidité de la journée des <b>100 ans du Loquidy</b>, 
+      aucun stationnement ne sera possible à l’intérieur de l’établissement.
+    </div>
+
+    <p class="acces-text">
+      Merci de vous référer à la carte ci-dessous qui recense :
+    </p>
+
+    <ul class="acces-list">
+      <li>🅿️ Les parkings recommandés</li>
+      <li>🚋 Les arrêts de tram de la ligne 2</li>
+      <li>🚪 Les points d’accès au site</li>
+    </ul>
+
+    <p class="acces-highlight">
+      👉 <b>Itinéraire recommandé :</b>
+      <br><br>
+      • Se garer au <b>Parking des Universités</b><br>
+      • Prendre le tram ligne 2 à <b>Facultés</b><br>
+      • Descendre à l'arrêt <b>Michelet Sciences</b>
+    </p>
+
+    <div id="map-acces"></div>
+
+  </div>
+</section>
+
+<section id="galerie" class="gallery-section">
+  <h2>Galerie historique du Loquidy</h2>
+
+  <div class="carousel">
+    <button class="nav prev">&#10094;</button>
+
+    <div class="carousel-track">
+      <!-- Images injectées ici -->
+    </div>
+
+    <button class="nav next">&#10095;</button>
+  </div>
+</section>
+
+
+<section id="news" class="news">
+    <h2 style="font-size:18px;margin-bottom:40px;">Actualités</h2>
+
+<div class="news-card">
+  <div class="news-content">
+    <div class="post-header">
+      <div class="post-meta">📣 28 janvier 2026</div>
+      <h3 class="post-title">Newsletter #3 — 100 ans du Loquidy : L’aventure commence maintenant !</h3>
+    </div>
+
+    <p><b>Chers Alumni, chers amis du Loquidy,</b></p>
+
+    <p>2026 sera une année exceptionnelle : notre école soufflera ses 100 bougies ! Le 17 octobre prochain, nous nous retrouverons pour célébrer un siècle d’histoire, de souvenirs et d’amitiés.</p>
+
+    <h4>Actualités du centenaire</h4>
+    <ul>
+      <li>Plus de 1300 d’entre vous suivent déjà les informations du centenaire.</li>
+      <li>Les inscriptions pour la journée du 17 octobre 2026 ouvriront très bientôt.</li>
+      <li>Le livret souvenir est en préparation avec Monsieur Dupin de Beyssat.</li>
+      <li>Expositions, diaporamas et films sont en cours de création.</li>
+    </ul>
+
+    <p><b>Vous avez une idée ? Un projet ?</b><br>
+    Écrivez-nous à <b>loquidyalumni@gmail.com</b>. Chaque suggestion compte.</p>
+
+    <h4>Un centenaire inoubliable, ça se prépare ensemble</h4>
+    <p>Votre soutien financier permettra de créer des animations, préserver la mémoire du Loquidy et offrir un cadre chaleureux à tous.</p>
+
+    <p><b>IBAN :</b> FR76 1027 8361 8600 0100 6840 202<br>
+    <b>BIC :</b> CMCIFR2A</p>
+
+    <p><i>Le Comité des 100 ans</i></p>
+  </div>
+
+  <div class="fade"></div>
+  <button class="read-more" onclick="toggleNews(this)">Lire la suite</button>
+</div>
+
+<div class="news-card">
+  <div class="news-content">
+    <div class="post-header">
+      <div class="post-meta">📣 14 décembre 2025</div>
+      <h3 class="post-title">Newsletter #2 — Loquidy 100 ans : Soyez des nôtres le 17 octobre 2026</h3>
+    </div>
+
+    <p><b>Chers anciens élèves, professeurs et personnels,</b></p>
+
+    <p>Le Loquidy fêtera ses 100 ans en 2026 ! Le samedi 17 octobre sera une journée exceptionnelle de retrouvailles, d’émotions et de souvenirs partagés.</p>
+
+    <h4>Inscription et informations</h4>
+    <p>Déjà près de 1000 personnes préinscrites pour recevoir les informations.</p>
+
+    <h4>Comment participer ?</h4>
+    <ul>
+      <li>Diffusez l’information autour de vous</li>
+      <li>Partagez sur WhatsApp, Facebook, LinkedIn, Instagram</li>
+    </ul>
+
+    <h4>Au programme</h4>
+    <p>Des activités sportives, artistiques et culturelles pour tous, dans l’esprit convivial du Loquidy.</p>
+
+    <p><b>Contact sport :</b> daussy.frederique@gmail.com<br>
+    <b>Contact organisation :</b> loquidyalumni@gmail.com</p>
+
+    <p><i>Le Comité des 100 ans du Loquidy vous souhaite un joyeux Noël 2025.</i></p>
+  </div>
+
+  <div class="fade"></div>
+  <button class="read-more" onclick="toggleNews(this)">Lire la suite</button>
+</div>
+
+<div class="news-card">
+  <div class="news-content">
+    <div class="post-header">
+      <div class="post-meta">📣 28 janvier 2025</div>
+      <h3 class="post-title">Newsletter #1 – Les 100 ans du Loquidy</h3>
+    </div>
+
+    <p><b>C’est parti pour les 100 ans du Loquidy !</b></p>
+
+    <p>
+      Vous êtes déjà plus de 500 anciens élèves, professeurs et personnels à avoir répondu
+      au questionnaire des Alumni. Et il n’est pas trop tard pour mobiliser d’autres Loquidiens :
+      nous comptons sur vos talents communicatifs !
+    </p>
+
+    <p>
+      Plus il y a de monde à une fête, plus elle est joyeuse et réussie.
+    </p>
+
+    <h4>📅 À noter dans vos agendas : samedi 17 octobre 2026</h4>
+
+    <p>
+      Oui, <b>2026</b>. Pas d’erreur possible : le prochain samedi 17 octobre après cela sera… en 2037 !
+    </p>
+
+    <h4>Une histoire incroyable à partager</h4>
+
+    <p>
+      Un établissement qui accueillait 75 élèves sur le site du Loquidy en octobre 1926…
+      et plus de 2200 élèves un siècle plus tard.
+      Comment ne pas raconter et partager cette belle aventure ?
+    </p>
+
+    <p><b>Un livret historique sera publié pour le grand jour !</b></p>
+
+    <h4>Revoir, découvrir, célébrer</h4>
+
+    <p>
+      Vous aurez le plaisir de revoir ces lieux où vous avez grandi,
+      mais aussi de découvrir les nombreuses évolutions et nouveaux projets.
+    </p>
+
+    <h4>Le comité des 100 ans</h4>
+
+    <p>
+      Avec les Alumni, le comité des 100 ans — composé d’anciens élèves, professeurs et personnels —
+      travaille activement pour vous accueillir le 17 octobre 2026 à Saint-Joseph du Loquidy – La Salle.
+    </p>
+
+    <p>
+      C’est parti pour retrouver vos amis et camarades de classe !
+    </p>
+
+    <h4>Deux mots-clés à retenir</h4>
+
+    <p>
+      <b>AGENDA</b> → samedi 17 octobre 2026<br>
+      <b>DIFFUSION</b> → “SAVE THE DATE” et lien du questionnaire
+    </p>
+
+    <p>
+      👉 <a href="https://forms.gle/4BiE8mADUTVAoyVYA" target="_blank">
+      Accéder au questionnaire Alumni</a>
+    </p>
+
+    <p>
+      Les inscriptions officielles aux festivités seront diffusées début 2026.
+    </p>
+
+    <p><i>À très vite, vivement 2026 pour se retrouver.</i></p>
+
+    <p><b>Le Comité des 100 ans</b></p>
+  </div>
+
+  <div class="fade"></div>
+  <button class="read-more" onclick="toggleNews(this)">Lire la suite</button>
+</div>
+
+
+
+
+
+</section>
+
+
+<!--
+<section id="course">
+<h2 style="font-size:18px;">La course des 100 ans</h2>
+<div class="card">
+<p>1 heure pour faire le maximum de tours du lycée.</p>
+<p>Dossard avec puce — Classement individuel & par promotion</p>
+<a class="btn" href="https://www.helloasso.com" target="_blank">S'inscrire à la course</a>
+<div id="map"></div>
+</div>
+</section>
+-->
+
+
+
+
+
+
+
+
+
+<footer>
+Comité des 100 ans — Lycée Saint-Joseph du Loquidy
+</footer>
+
+<script>
+// ===== Timeline dynamique =====
+fetch('programme.json')
+.then(res => res.json())
+.then(data => {
+  const timeline = document.getElementById('timeline');
+
+  data.forEach(event => {
+    const div = document.createElement('div');
+    div.className = 'timeline-item';
+    div.innerHTML = `
+      <div class="time">${event.start} - ${event.end}</div>
+      <h3>${event.title}</h3>
+      <p>${event.description}</p>
+    `;
+    timeline.appendChild(div);
+  });
+});
+
+// ===== Carte GPX (ta course) =====
+var map = L.map('map').setView([47.248, -1.563], 16);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+ attribution: '© OpenStreetMap'
+}).addTo(map);
+
+new L.GPX("100Loquidy.gpx", {
+ async: true,
+ polyline_options: {color: 'red', weight: 5}
+}).on('loaded', function(e) {
+ map.fitBounds(e.target.getBounds());
+}).addTo(map);
+
+</script>
+
+<script>
+function toggleNews(btn){
+
+  const card = btn.closest('.news-card');
+  const content = card.querySelector('.news-content');
+
+  card.classList.toggle('open');
+
+  if(card.classList.contains('open')){
+    btn.innerText = "Réduire";
+  } else {
+    btn.innerText = "Lire la suite";
+  }
+}
+</script>
+
+
+<script>
+const images = [
+"images/entree-du-loquidy.jpg",
+"images/Façade 1976 (2025_04_27 10_41_14 UTC).jpg",
+"images/Travaux 1963-BatB.jpg",
+"images/Travaux 1963-BâtC-D.jpg",
+"images/Vue aérienne-1960.jpg",
+"images/vue-aerienne-du-loquidy.jpg",
+"images/- Loquidy & cour 198-.jpg",
+"images/2- Ouverture du Loquidy-1926-RET.jpg",
+"images/4- Allée des chataigniers.jpg",
+"images/6- Bâtiment 1926 (2025_04_25 15_59_50 UTC).jpg",
+"images/6a- Bâtiment 1928.jpg",
+"images/7- Constructions-1926-1984.jpg",
+"images/8- 1926 Dortoir - Arrivée en bus .jpg",
+"images/11- Loquidy & cour 198-.jpg",
+"images/11-Bât D-E-Préaux  198- .jpg",
+"images/11-Préaux .jpg",
+"images/13- Bât Bel-Air .jpg",
+"images/20260219_150356.jpg",
+"images/20260219_150446.jpg",
+"images/20260219_150450.jpg",
+"images/batiment-historique-vu-du-ciel.jpg",
+"images/batiment-lycee.jpg"
+];
+
+const track = document.querySelector('.carousel-track');
+let slides = [];
+let index = 0;
+
+// Crée les slides vides
+images.forEach(() => {
+  const img = document.createElement('img');
+  img.loading = "lazy";     // 🔥 clé
+  img.decoding = "async";   // 🔥 clé
+  slides.push(img);
+  track.appendChild(img);
+});
+
+// Charge UNE image seulement
+function loadImage(i){
+  if(!slides[i].src){
+    slides[i].src = images[i];
+  }
+}
+
+function updateCarousel(){
+  loadImage(index);
+  loadImage(index+1); // précharge la suivante seulement
+  track.style.transform = `translateX(-${index * 100}%)`;
+}
+
+document.querySelector('.next').onclick=()=>{
+  index = (index + 1) % images.length;
+  updateCarousel();
+};
+
+document.querySelector('.prev').onclick=()=>{
+  index = (index - 1 + images.length) % images.length;
+  updateCarousel();
+};
+
+// Swipe mobile
+let startX=0;
+track.addEventListener('touchstart',e=>{
+  startX=e.touches[0].clientX;
+});
+track.addEventListener('touchend',e=>{
+  let endX=e.changedTouches[0].clientX;
+  if(endX < startX - 50) index = (index + 1) % images.length;
+  if(endX > startX + 50) index = (index - 1 + images.length) % images.length;
+  updateCarousel();
+});
+
+// Charge la première
+updateCarousel();
+</script>
+
+
+
+<script>
+// ===== CARTE ACCES =====
+var mapAcces = L.map('map-acces').setView([47.248, -1.563], 16);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '© OpenStreetMap'
+}).addTo(mapAcces);
+
+// ===== PARKINGS =====
+const iconParking = L.divIcon({
+  className: 'parking-icon',
+  html: `
+    <div style="
+      background:#0080ff;
+      color:white;
+      width:38px;
+      height:38px;
+      border-radius:50%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:18px;
+      font-weight:bold;
+      box-shadow:0 4px 10px rgba(0,0,0,0.3);
+      border:2px solid white;
+    ">
+      P
+    </div>
+  `,
+  iconSize: [38, 38],
+  iconAnchor: [19, 19]
+});
+
+L.marker([47.244440, -1.553557], {icon: iconParking})
+  .addTo(mapAcces)
+.bindPopup(`
+  <b>Parking des universités</b><br>
+  Parking gratuit conseillé<br><br>
+
+  <a href="https://ul.waze.com/ul?ll=47.24448354%2C-1.55387878&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
+     target="_blank"
+     style="display:flex;align-items:center;gap:6px;text-decoration:none;">
+
+    <img src="waze.png"
+         alt="Waze"
+         style="width:28px;height:auto;display:block;">
+
+    <span style="font-size:12px;color:#b31217;font-weight:bold;">
+      Ouvrir dans Waze
+    </span>
+
+  </a>
+`);
+
+
+/*L.marker([47.246166, -1.553568], {icon: iconParking})
+  .addTo(mapAcces)
+  .bindPopup("<b>Parking des Universités</b><br>Parking gratuit conseillé");*/
+
+const iconTram = L.icon({
+  iconUrl: "https://cdn-icons-png.flaticon.com/512/61/61168.png",
+  iconSize: [30, 30]
+});
+
+const iconBus = L.icon({
+  iconUrl: "https://cdn-icons-png.flaticon.com/512/61/61168.png",
+  iconSize: [28, 28],
+  iconAnchor: [14, 14]
+});
+
+L.marker([47.234508, -1.557138], { icon: iconBus })
+  .addTo(mapAcces)
+  .bindPopup(`
+    <b>🚏 Arrêt Michelet</b><br>
+    Ligne de bus 10 et 23<br><br>
+  `);
+
+const iconEntrance = L.icon({
+  iconUrl: "logo.webp",
+  iconSize: [36, 36],
+  iconAnchor: [18, 36],
+  popupAnchor: [0, -30]
+});
+
+L.marker([47.245760, -1.555193], { icon: iconTram })
+  .addTo(mapAcces)
+  .bindPopup("<b>🚋 Arrêt Tram Ligne 2 Facultés</b><br>Ligne de tram principale vers le campus");
+
+L.marker([47.235167, -1.556593], { icon: iconTram })
+  .addTo(mapAcces)
+  .bindPopup("<b>🚋 Arrêt Tram Ligne 2 Michelet Sciences</b><br>Accès sud du campus / Loquidy");
+
+  L.marker([47.236835, -1.556722], { icon: iconEntrance })
+  .addTo(mapAcces)
+  .bindPopup("<b>🏫 Entrée du Loquidy</b><br>Accueil principal des 100 ans");
+
+  mapAcces.fitBounds([
+  [47.245760, -1.555193],
+  [47.235167, -1.556593],
+  [47.236835, -1.556722]
+]);
+
+</script>
+
+
+<script>
+document.querySelector('a.logo-title').addEventListener('click', function(e){
+  e.preventDefault();
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+</script>
+
+</body>
+</html>
