@@ -13,6 +13,8 @@
   --rouge:#b31217;
   --beige:#f2e6d8;
   --noir:#1c1c1c;
+  --bleu-pastel:#eef4fb;
+  --jaune-pastel:#ffeeb3;
 }
 
 
@@ -29,7 +31,7 @@
 }
 
 body{
-  background:var(--beige);
+  background:var(--bleu-pastel);
   color:var(--noir);
   line-height:1.6;
 }
@@ -111,6 +113,26 @@ nav a{
    STRUCTURE GENERALE DES SECTIONS
    ===================================================== */
 
+.section-title{
+  font-family:'Cormorant Garamond', serif;
+  font-size:18px;
+  font-weight:600;
+  text-align:center;
+  color:#163d6b;
+  margin-bottom:50px;
+  position:relative;
+}
+
+.section-title::after{
+  content:"";
+  display:block;
+  width:80px;
+  height:3px;
+  background:#b31217;
+  margin:12px auto 0;
+  border-radius:10px;
+}
+
 section{
   padding:120px 20px 60px;
 }
@@ -127,7 +149,7 @@ section{
 }
 
 section:nth-of-type(even){
-  background:var(--beige);
+  background:var(--bleu-pastel);
 }
 
 
@@ -161,12 +183,17 @@ section:nth-of-type(even){
 }
 
 .hero h2{
-  font-size:34px;
+  font-family:'Playfair Display', serif;
+  font-size:42px;
+  font-weight:700;
+  letter-spacing:1px;
   margin-bottom:15px;
+  text-shadow:0 3px 12px rgba(0,0,0,.35);
 }
 
 .hero p{
   font-size:16px;
+  font-family:'Playfair Display', serif;
 }
 
 
@@ -305,6 +332,7 @@ section:nth-of-type(even){
   border-radius:12px;
 
   box-shadow:0 6px 20px rgba(0,0,0,.06);
+
 }
 
 .time{
@@ -333,7 +361,7 @@ section:nth-of-type(even){
   border-radius:12px;
   box-shadow:0 10px 30px rgba(0,0,0,.08);
   max-width:900px;
-  margin:auto;
+  margin:25px auto;
   text-align:center;
 }
 
@@ -541,10 +569,15 @@ footer{
     padding:140px 8vw 80px;
   }
 
+  .section-title{
+  font-size:38px;
+
+}
+
   /* Hero */
 
-  .hero h2{
-    font-size:70px;
+.hero h2{
+    font-size:78px;
   }
 
   .hero p{
