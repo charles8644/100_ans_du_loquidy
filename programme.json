@@ -5,6 +5,12 @@
     "title": "Accueil des inscrits",
     "description": "<p>Accueil des participants, vérification des inscriptions et distribution des badges pour bien commencer la journée.</p>"
   },
+   {
+    "start": "09:45",
+    "end": "17:00",
+    "title": "à votre disposition  toute la journée",
+    "description": "<p>Plusieurs espaces seront librement accessibles, matin et après-midi,pour profiter pleinement de l’événement.</p><p>📸 <b>Photo booth</b> à disposition pour immortaliser vos retrouvailles.</p><p>🖊️ Retrouvez également <b>l’antenne Alumni</b> ainsi que le <b>livre d’Or</b> pour laisser un souvenir de votre passage.</p><p><b>Expositions thématiques</b> à découvrir dans le bâtiment D du lycée :</p><ul><li>🎭 Théâtre</li><li>🌍 International</li><li>🎉 Fête de l’école</li><li>🏅 Sports</li><li>⛪ Réseau La Salle / Pastorale</li></ul>"
+  },
   {
     "start": "09:45",
     "end": "10:15",
@@ -34,12 +40,6 @@
     "end": "14:00",
     "title": "Buffet des Alumni",
     "description": "<p>Grand buffet convivial favorisant les retrouvailles et les échanges entre promotions.</p>"
-  },
-  {
-    "start": "14:00",
-    "end": "17:00",
-    "title": "Après-midi : Animations, expositions et espaces libres",
-    "description": "<p>Tout l’après-midi, plusieurs espaces seront librement accessibles pour profiter pleinement de l’événement.</p><p>📸 <b>Photo booth</b> à disposition pour immortaliser vos retrouvailles.</p><p>🖊️ Retrouvez également <b>l’antenne Alumni</b> ainsi que le <b>livre d’Or</b> pour laisser un souvenir de votre passage.</p><p><b>Expositions thématiques</b> à découvrir dans le bâtiment D du lycée :</p><ul><li>🎭 Théâtre</li><li>🌍 International</li><li>🎉 Fête de l’école</li><li>🏅 Sports</li><li>⛪ Réseau La Salle / Pastorale</li></ul>"
   },
   {
     "start": "14:30",
