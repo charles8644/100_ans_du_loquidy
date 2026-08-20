@@ -422,7 +422,7 @@ section:nth-of-type(even){
 }
 
 .partner-card img{
-  width:140px;
+  width:150px;
   margin-bottom:20px;
 }
 
@@ -650,7 +650,10 @@ footer{
   margin:30px auto;
 }
 
-
+.partner-card img{
+  width:170px;
+  margin-bottom:20px;
+}
 
   .post-title{
     font-size:24px;
