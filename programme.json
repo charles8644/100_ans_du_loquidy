@@ -1,62 +1,68 @@
 [
   {
-    "start": "09:30",
-    "end": "09:45",
-    "title": "Accueil des inscrits",
-    "description": "<p>Accueil des participants, vérification des inscriptions et distribution des badges pour bien commencer la journée.</p>"
-  },
-   {
-    "start": "09:45",
-    "end": "17:00",
-    "title": "à votre disposition  toute la journée",
-    "description": "<p>Plusieurs espaces seront librement accessibles, matin et après-midi,pour profiter pleinement de l’événement.</p><p>📸 <b>Photo booth</b> à disposition pour immortaliser vos retrouvailles.</p><p>🖊️ Retrouvez également <b>l’antenne Alumni</b> ainsi que le <b>livre d’Or</b> pour laisser un souvenir de votre passage.</p><p><b>Expositions thématiques</b> à découvrir dans le bâtiment D du lycée :</p> <br> 🎭 Théâtre <br> 🌍 International <br> 🎉 Fête de l’école <br> 🏅 Sports <br> ⛪ Réseau La Salle / Pastorale"
+    "start": "09:00",
+    "end": "09:30",
+    "title": "Accueil et remise de la pochette anniversaire",
+    "description": "<p>Accueil et remise d’une <b>pochette anniversaire</b> aux anciens élèves, personnels et professeurs.</p>"
   },
   {
-    "start": "09:45",
+    "start": "09:30",
     "end": "10:15",
-    "title": "Assemblée Générale — Amphithéâtre",
-    "description": "<p>Assemblée Générale des Alumni organisée dans l’amphithéâtre.</p>"
+    "title": "Assemblée générale extraordinaire — Amphithéâtre",
+    "description": "<p>Assemblée générale extraordinaire présidée par <b>Jean-Marc Coutant</b> dans l’amphithéâtre.</p>"
   },
   {
     "start": "10:30",
     "end": "11:30",
     "title": "Messe du Centenaire — Amphithéâtre",
-    "description": "<p>Messe célébrée par Monseigneur Charrier dans l’amphithéâtre à l’occasion des 100 ans du Loquidy.</p>"
+    "description": "<p>Messe célébrée par <b>Mgr Charrier</b> dans l’amphithéâtre.</p>"
   },
   {
-    "start": "11:30",
+    "start": "11:45",
     "end": "12:00",
-    "title": "Discours officiels — Amphithéâtre",
-    "description": "<p>Discours du Président de l’Amicale, de la Tutelle et de la Direction pour marquer ce moment historique.</p>"
+    "title": "Intervention de Madame Marie-Pierre Daugeard — Amphithéâtre",
+    "description": "<p>Intervention de <b>Madame Marie-Pierre Daugeard</b>, Directrice, dans l’amphithéâtre.</p>"
   },
   {
-    "start": "12:00",
+    "start": "12:15",
     "end": "12:30",
-    "title": "Apéritif de bienvenue",
-    "description": "<p>Apéritif convivial animé musicalement par la troupe des Collines Rouges pour lancer les festivités.</p>"
+    "title": "Apéritif — Gymnase",
+    "description": "<p>Apéritif convivial dans le gymnase.</p>"
   },
   {
     "start": "12:30",
-    "end": "14:00",
-    "title": "Buffet des Alumni",
-    "description": "<p>Grand buffet convivial favorisant les retrouvailles et les échanges entre promotions.</p>"
+    "end": "13:30",
+    "title": "Déjeuner — Restaurant de la Quintaine",
+    "description": "<p>À partir de 12h30, déjeuner au <b>restaurant de la Quintaine</b> pour les personnes ayant réservé.</p>"
   },
   {
-    "start": "14:30",
-    "end": "15:00",
-    "title": "Animations musicales",
-    "description": "<p>Première session d’animations musicales pour rythmer l’après-midi.</p>"
-  },
+  "start": "14:30",
+  "end": "15:00",
+  "title": "Rassemblement générationnel",
+  "description": "<p>Retrouvez votre génération lors du rassemblement de 14h30 ! À l’accueil, une gommette de couleur vous sera remise selon votre promotion.</p><div class='newsletter-colors'><div><span class='color-dot violet'></span><strong>1950 à 1989</strong><span>Violet</span></div><div><span class='color-dot rose'></span><strong>1990 à 1999</strong><span>Rose</span></div><div><span class='color-dot vert'></span><strong>2000 à 2009</strong><span>Vert</span></div><div><span class='color-dot noir'></span><strong>2010 à 2015</strong><span>Noir</span></div><div><span class='color-dot rouge'></span><strong>2016 et 2017</strong><span>Rouge</span></div><div><span class='color-dot jaune'></span><strong>2018 et 2019</strong><span>Jaune</span></div><div><span class='color-dot marron'></span><strong>2020 et 2021</strong><span>Marron</span></div><div><span class='color-dot bleu'></span><strong>2022, 2023 et 2024</strong><span>Bleu</span></div><div><span class='color-dot orange'></span><strong>2025 et 2026</strong><span>Orange</span></div><div><span class='color-dot blanc'>P</span><strong>Professeurs et personnels</strong><span>Blanc, marqué P</span></div></div>"
+ },
   {
     "start": "15:00",
-    "end": "16:00",
-    "title": "Animations sportives intergénérationnelles",
-    "description": "<br><b>🏃‍♂️ Course relais</b><br>🏉 <b>Rugby</b> : sur le terrain synthétique<br>⚽ <b>Football</b> : animé par <b>Clément Rousset</b> sur le terrain en herbe<br>🏀 <b>Basketball</b> : animé par <b>David Arrial</b> sur le plateau sportif<br><p><b>👕 Une tenue sportive adéquate est à apporter :</b><br>Merci de prévoir une tenue sportive adaptée pour participer dans de bonnes conditions.</p>"
+    "end": "16:45",
+    "title": "Animations musicales et sportives",
+    "description": "<p>Animations musicales et sportives tout au long de l’après-midi.</p><p><b>⚠️ L’attestation de décharge sportive est obligatoire. <a href='Décharge-100-ans.pdf' >📄 Télécharger la décharge sportive</a></b></p><p>🏃 Le rendez-vous des sportifs est prévu <b>devant les vestiaires</b>.</p>"
   },
   {
-    "start": "16:00",
-    "end": "17:00",
-    "title": "Final du Centenaire",
-    "description": "<p>Grand final festif avec animations musicales et envoi de clôture pour terminer cette journée mémorable.</p>"
+    "start": "16:45",
+    "end": "17:15",
+    "title": "Table ronde — Amphithéâtre",
+    "description": "<p>Table ronde avec <b>trois anciens élèves de trois générations différentes</b>, animée par <b>E. Faure, journaliste à France Télévision</b>.</p>"
+  },
+  {
+    "start": "17:15",
+    "end": "18:00",
+    "title": "Concert — Final musical",
+    "description": "<p>Concert et <b>final musical</b> pour clôturer cette journée anniversaire.</p>"
+  },
+  {
+    "start": "09:00",
+    "end": "18:00",
+    "title": "Toute la journée — Expositions, animations et retrouvailles",
+    "description": "<p>🎵 Animation musicale des <b>« Rouges Collines »</b>.</p><p>🏫 <b>Exposition intérieure</b> sur les 100 ans du Loquidy dans le bâtiment Lycée.</p><p>🌳 <b>Exposition extérieure</b> sur les 100 ans dans le parc du Loquidy.</p><p>📸 <b>Eco Photo Booth</b>.</p><p>🪵 <b>Sept jeux en bois</b> accessibles l’après-midi.</p><p>🤝 Retrouvailles et rencontres entre anciens élèves, professeurs, personnels et amis du Loquidy.</p><p>🍺 <b>Bar avec la bière des 100 ans</b>, proposée par la Brasserie TOUM’S.</p>"
   }
 ]
